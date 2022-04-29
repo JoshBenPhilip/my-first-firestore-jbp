@@ -46,12 +46,6 @@ const restaurant = {// creating an object -- in this case a specific restaurant
 ////this is todd style automatically add the try catch
 
 
-//////below is the way to add stuff to mongo or firebase
-// db.collection('restaurants').add(restaurant)
-// .then(doc => console.log('Created restaurant', doc.id))
-// .catch(err => console.error(err))
-////this is todd style automatically add the try catch
-
 restaurantsCol.add(restaurant) // adding the restaurant to our restaurants collection
 .then(doc => console.log ('Created restaurant',doc.id))
 .catch(err => console.error('err'))
