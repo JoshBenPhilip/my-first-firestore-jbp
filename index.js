@@ -18,9 +18,7 @@ const restaurant = {// creating an object -- in this case a specific restaurant
 //.add(restaurant)
 // .then(doc => console.log('Created restaurant', doc.id))
 // .catch(err => console.error(err))
-////this is todd style automatically add the try catch
-
-
+////this is todd style automatically add the 
 restaurantsCol.add(restaurant) // adding the restaurant to our restaurants collection
 .then(doc => console.log ('Created restaurant',doc.id))
 .catch(err => console.error('err'))
