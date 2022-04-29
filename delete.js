@@ -14,6 +14,6 @@ const db = admin.firestore(); // creates a shortcut to access the Firestore data
 const restaurantsCol = db.collection('restaurants') // shortcut to point to our collection
 
 // delete 
-restaurantsCol.doc('LYadSZsJCjjQURbQK7wl').delete()
+restaurantsCol.doc('316UlPxZdFHhblmxRiql').delete()
 .then(console.log('Success!'))
-.catch(err=> console.error('Error deleting:LYadSZsJCjjQURbQK7wl', err))
+.catch(err=> console.error('Error deleting:316UlPxZdFHhblmxRiql', err))
